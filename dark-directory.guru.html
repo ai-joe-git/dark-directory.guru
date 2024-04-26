@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Citadel Directory</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'VT323', monospace;
+      background-color: #000;
+      color: #0f0;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 4rem;
+      text-shadow: 0 0 20px #0f0;
+      animation: glow 2s ease-in-out infinite;
+    }
+
+    .directory {
+      list-style-type: none;
+      padding: 0;
+      text-align: left;
+      font-size: 1.5rem;
+      text-shadow: 0 0 10px #0f0;
+    }
+
+    .directory li {
+      margin-bottom: 20px;
+    }
+
+    .directory li a {
+      color: #0f0;
+      text-decoration: none;
+      transition: text-shadow 0.3s ease;
+    }
+
+    .directory li a:hover {
+      text-shadow: 0 0 20px #0f0;
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .background span {
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #0f0;
+      animation: matrix-rain 10s linear infinite;
+    }
+
+    @keyframes matrix-rain {
+      0% {
+        opacity: 1;
+        top: -10%;
+        transform: translateX(0) rotate(0deg);
+      }
+      100% {
+        opacity: 0;
+        top: 110%;
+        transform: translateX(-200%) rotate(720deg);
+      }
+    }
+
+    @keyframes glow {
+      0%, 100% {
+        text-shadow: 0 0 20px #0f0;
+      }
+      50% {
+        text-shadow: 0 0 40px #0f0;
+      }
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <!-- Add more spans as needed -->
+  </div>
+  <div class="container">
+    <h1>Dark Directory Guru</h1>
+    <ul class="directory">
+      <li><a href="http://4yilku7psl4oaqnqzoroc4jn6rb76fyi3pfy2mar7zzztqowffma5did.onion/" target="_blank">blackhat.services</a></li>
+      <li><a href="http://ares2vsjkc4p3vuvm65etbikyclqkzhstx4nypq2kiqei246ktt3uiqd.onion/" target="_blank">Ares Market</a></li>
+      <li><a href="http://nexusaaso5kxt75bigvtixw63dot3mnthl3pwqxg4d6tlj5yfqjuviid.onion/" target="_blank">Nexus Market</a></li>
+      <li><a href="http://whirtorjrmobfbhzpzofd2yfd5airxjlwhwmc2axwy4x7uu33p5yhoyd.onion/" target="_blank">Whir Bitcoin Mixer</a></li>
+      <li><a href="http://abacus5m27pzz3i6cfh7cg7tjt43lkiur6gjqjrwym2avv4uvgfmabad.onion/" target="_blank">Abacus Market</a></li>
+      <li><a href="http://hn2paw7zwrep6fpbcuj6tko6sh2lfgcqgvutmocollu5qvefhdyudlid.onion/" target="_blank">We The North</a></li>
+      <li><a href="http://retrom2ll35g6wkqctsysue5xb47hlsrzt3sh6a73w3lzx6fwtvov5qd.onion/" target="_blank">Retro Market</a></li>
+      <li><a href="http://4pt4axjgzmm4ibmxplfiuvopxzf775e5bqseyllafcecryfthdupjwyd.onion/" target="_blank">ARCHETYP MARKET</a></li>
+    </ul>
+  </div>
+</body>
+</html>
